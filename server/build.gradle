@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+//    compile files('/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/Client side/libs/sqlite.jar')
+    compile files('libs/sqlite.jar')
+    compile project(path: ':shared')
+    compile project(path: ':shared')
+    compile files('libs/gson-2.2.4.jar')
+    compile 'junit:junit:4.12'
+    compile 'junit:junit:4.12'
+    compile files('libs/junit-4.12.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

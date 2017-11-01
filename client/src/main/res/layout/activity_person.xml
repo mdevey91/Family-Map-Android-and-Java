@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bignerdranch.android.client.PersonActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/first_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="First Name"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="first name"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/last_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Last Name"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="last name"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Gender"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gender"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/expandable_view"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'junit:junit:4.12'
+//    compile '__local_jars__:/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/gson-2.2.4.jar:unspecified'
+//    compile '__local_jars__:/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/gson-2.2.4.jar:unspecified'
+//    compile files('/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/Server/libs/gson-2.2.4.jar')
+//    compile '__local_jars__:/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/Client side/libs/gson-2.2.4.jar:unspecified'
+//    compile '__local_jars__:/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/Client side/libs/gson-2.2.4.jar:unspecified'
+    compile files('/home/devey/Documents/AndroidStudioProjects/FamilySearchServer/server/libs/gson-2.2.4.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

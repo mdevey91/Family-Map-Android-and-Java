@@ -1,0 +1,6 @@
+CREATE TABLE UserTable
+(
+    username Text,
+
+
+)
